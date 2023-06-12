@@ -163,3 +163,70 @@ footer p {
     margin: 50px;
     font-size: 30px;
     }
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+/* Estilos generales */
+ body {
+    background-color: #fff;
+    }
+
+/* Estilos para el encabezado */
+header {
+    padding: 20px;
+    }
+
+header h1 {
+    font-size: 20px;
+    }
+
+/* Estilos para la sección de portada */
+    #portada {
+    padding: 50px 20px;
+    }
+
+.portada-content {
+    padding: 50px;
+    }
+
+#titulo {
+    font-size: 20px;
+    margin: 10px 0;
+    }
+
+#portada h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+
+#portada p {
+    font-size: 14px;
+    }
+
+/* Estilos para la galería */
+.gallery {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    }
+
+.gallery-item img {
+    width: 300px;
+    height: 200px;
+    }
+
+    /* Estilos para el pie de página */
+footer {
+    padding: 60px 0;
+    }
+
+footer p {
+    font-size: 16px;
+    }
+
+/* Estilos para el párrafo de descripción */
+#descrip {
+    margin: 20px;
+    font-size: 18px;
+    }
+}

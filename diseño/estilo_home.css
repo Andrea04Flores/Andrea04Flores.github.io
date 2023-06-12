@@ -1,0 +1,204 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-color: #AED6F1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #85C1E9;
+  color: #fff;
+  padding: 50px;
+}
+
+header h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+header h1 {
+  font-family: "Merriweather", serif;
+  padding: 20px;
+  margin: 0;
+  font-size: 32px;
+}
+
+/* Estilos para la sección de portada */
+#portada {
+  background-image: url("https://mylomehotels.com/wp-content/uploads/2023/03/mylome-hotel-lifestyle-70-1920px.webp");
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  color: #fff;
+  text-align: center;
+}
+
+.portada-content {
+  background-color: rgba(0, 0, 0, 0.692);
+  border-radius: 10px;
+  opacity: 100%;
+  padding: 100px;
+  text-align: center;
+}
+#titulo {
+  font-size: 36px;
+  margin: 30px 0 30px 0;
+}
+#portada h2 {
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#portada p {
+  font-size: 24px;
+}
+
+/* Estilos para la sección de habitaciones */
+#habitaciones {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #habitaciones h2 {
+    font-family: "Merriweather", serif;
+    padding: 20px;
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  #habitaciones ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #habitaciones li {
+    font-family: helvetica;
+    font-weight:500;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  #habitaciones .border {
+    
+    border: none;
+    list-style: square outside;
+    text-align: left;
+    padding: 5px 5px;
+    margin: 5px 5px 5px 5px;
+  }
+  
+  #habitaciones li:hover {
+    transform: translateY(-5px);
+  }
+  
+  #habitaciones h3 {
+    font-family: "Merriweather", serif;
+    padding: 20px;
+    color: #3498DB;
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  #habitaciones p {
+    font-family: helvetica;
+    font-weight:500;
+    margin: 10px 0 10px 0;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  #habitaciones button {
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .botton4{
+    position: relative;
+    top: 50px;
+  }
+  
+  .botton1{
+    position: relative;
+    top: 30px;
+  }
+
+  #habitaciones button:hover {
+    background-color: #435c92;
+  }
+  
+  /* Estilos para las imágenes de habitaciones */
+  #habitaciones img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #85C1E9;
+  color: #fff;
+  padding: 120px 0;
+  text-align: center;
+}
+
+footer p {
+  font-family: "Merriweather", serif;
+  padding: 20px;
+  margin: 0;
+  font-size: 18px;
+}
+/* Para centrar el menú en el encabezado */
+nav {
+  text-align: center;
+  margin: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin: 10px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  font-family: "Tahoma", serif;
+  font-weight: 100px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+

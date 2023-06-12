@@ -1,0 +1,174 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-color: #AED6F1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+    /* Estilos para el encabezado */
+    header {
+        background-color: #85C1E9;
+        color: #fff;
+        padding: 50px;
+    }
+    
+    header h1 {
+        font-family: "Merriweather", serif;
+        padding: 20px;
+        margin: 0;
+        font-size: 32px;
+    }
+    
+    header h1 a {
+        color: white;
+        text-decoration: none;
+    }
+
+    /* Estilos para la sección de portada */
+    #portada {
+        background-image: url("https://mylomehotels.com/wp-content/uploads/2023/03/mylome-hotel-lifestyle-70-1920px.webp");
+        background-size: cover;
+        background-position: center;
+        padding: 100px;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .portada-content {
+        background-color: rgba(0, 0, 0, 0.692);
+        border-radius: 10px;
+        opacity: 100%;
+        padding: 100px;
+        text-align: center;
+    }
+    #titulo {
+        font-size: 36px;
+        margin: 30px 0 30px 0;
+    }
+    #portada h2 {
+        font-family: "Merriweather", serif;
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    
+    #portada p {
+        font-size: 24px;
+    }
+
+    /* Estilos para el pie de página */
+    footer {
+        background-color: #85C1E9;
+        color: #fff;
+        padding: 120px 0;
+        text-align: center;
+    }
+    
+    footer p {
+        font-family: "Merriweather", serif;
+        padding: 20px;
+        margin: 0;
+        font-size: 18px;
+    }
+    
+        body {
+            margin: 0;
+            padding: 20px;
+        }
+
+        #fom_t{
+            font-size: 40px;
+            text-align: center;
+            font-family: "Merriweather", serif;
+            margin: 60px 0 60px 0;
+        }
+            
+        #formulario {
+            max-width: 600px;
+            margin: 0 auto;
+            font-weight: 600;
+        }
+            
+        label {
+            display: block;
+            margin: 50px 0 50px 0;
+        }
+            
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-weight: 550;
+        }
+            
+        #habitacion-preview {
+            text-align: center;
+            margin-top: 20px;
+        }    
+        
+        #habitacion-preview img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 250px;
+            height: 50px;
+            margin: 30px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0a255f;
+            border: none;
+            color: #fff;
+            font-weight: 600;
+            font-size: 16;
+            transition: background-color 0.1s ease;
+        } 
+
+        button:hover {
+            background-color: #6f83f0;
+        }
+
+    /* Para centrar el menú en el encabezado */
+    nav {
+        text-align: center;
+        margin: 10px;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin: 10px;
+    }
+    
+    nav li {
+        display: inline-block;
+        margin-right: 20px;
+        font-family: "Tahoma", serif;
+        font-weight: 100px;
+    }
+    
+    nav li:last-child {
+        margin-right: 0;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 20px;
+    }
+    
+    nav a:hover {
+        text-decoration: underline;
+    }

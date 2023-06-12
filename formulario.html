@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="diseño/estilo_form.css" />
+<link rel="stylesheet" href="diseño/reset.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Oswald:wght@300&display=swap" rel="stylesheet">
+<title>Hotel Jury Jen</title>
+</head>
+<body>
+<!-- Encabezado -->
+<header>
+    <h1><a href="/index.html">Hotel Jury Jen</a></h1>
+</header>
+<!-- Menú -->
+<nav>
+    <ul>
+        <li><a href="/index.html">INICIO</a></li>
+        <li><a href="/galeria.html">GALERIA</a></li>
+        <li><a href="/formulario.html">RESERVACIÓN</a></li>
+    </ul>
+    </nav>
+
+<!-- Portada -->
+<section id="portada">
+    <div class="portada-content">
+    <h2>Bienvenido a Hotel Jury Jen</h2>
+    <p>
+        ¡Bienvenido al Hotel Jury Jen, el lugar
+        perfecto para unas vacaciones inolvidables!<br />
+        Disfruta de nuestra hospitalidad y sumérgete
+        en un oasis de descanso y diversión.
+    </p>
+    </div>
+</section>
+
+<h1 id="fom_t">Formulario de Reservación</h1>
+
+<form id="formulario" onsubmit="event.preventDefault(); reservacionRealizada();">
+    <label for="habitacion">Habitación:</label>
+    <select name="habitacion" id="habitacion" onchange="mostrarHabitacionSeleccionada()">
+    <option value="" selected disabled>Seleccione una opción</option>
+    <option value="habitacion_basica" data-imagen="/imagenes/habitacion1.jpg">Habitación Básica</option>
+    <option value="habitacion_estandar" data-imagen="/imagenes/habitacion2.jpg">Habitación Estándar</option>
+    <option value="habitacion_ejecutiva" data-imagen="/imagenes/habitacion3.jpg">Habitación Ejecutiva</option>
+    <option value="habitacion_deluxe" data-imagen="/imagenes/habitacion4.jpg">Habitación Deluxe</option>
+    <option value="habitacion_suite" data-imagen="/imagenes/habitacion5.jpg">Habitación Suite</option>
+    </select>
+
+    <div id="habitacion-preview">
+    <img src="" alt="Vista previa de la habitación" id="habitacion-imagen" />
+    </div>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" required />
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required />
+
+    <label for="fecha_entrada">Fecha de Entrada:</label>
+    <input type="date" name="fecha_entrada" id="fecha_entrada" required />
+
+    <label for="fecha_salida">Fecha de Salida:</label>
+    <input type="date" name="fecha_salida" id="fecha_salida" required />
+
+    <label for="num_personas">Número de Personas:</label>
+    <input type="number" name="num_personas" id="num_personas" required />
+
+    <button type="submit">Realizar reserva</button>
+</form>
+
+<script>
+    function mostrarHabitacionSeleccionada() {
+    var habitacionSelect = document.getElementById("habitacion");
+    var habitacionPreview = document.getElementById("habitacion-imagen");
+    var selectedOption = habitacionSelect.options[habitacionSelect.selectedIndex];
+    var imagenURL = selectedOption.getAttribute("data-imagen");
+    habitacionPreview.src = imagenURL;
+    }
+
+    function reservacionRealizada() {
+    alert("¡Tu reservación ha sido realizada con éxito!");
+    // Limpiar los campos del formulario
+    document.getElementById("formulario").reset();
+    }
+</script>
+
+<footer>
+    <p>Hotel Jury Jen - Todos los derechos reservados</p>
+</footer>
+</body>
+</html>

@@ -77,11 +77,6 @@ body {
         font-size: 18px;
     }
     
-        body {
-            margin: 0;
-            padding: 20px;
-        }
-
         #fom_t{
             font-size: 40px;
             text-align: center;
@@ -172,3 +167,126 @@ body {
     nav a:hover {
         text-decoration: underline;
     }
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+/* Estilos generales */
+ body {
+    background-color: #fff;
+    }
+
+/* Estilos para el encabezado */
+header {
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 20px;
+}
+
+/* Estilos para la sección de portada */
+#portada {
+    padding: 50px 20px;
+}
+
+.portada-content {
+    padding: 50px;
+}
+
+#titulo {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#portada h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#portada p {
+    font-size: 14px;
+}
+ /* Estilos para el pie de página */
+footer {
+    padding: 60px 0;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+  /* Estilos para el formulario */
+#fom_t {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    margin: 60px 0 60px 0;
+}
+
+#formulario {
+    max-width: 600px;
+    margin: 10px 10px 10px 10px;
+    font-weight: 600;
+}
+
+label {
+    display: block;
+    margin: 20px 0;
+    margin: 0 10px 0 10px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: 550;
+    
+}
+
+#habitacion-preview {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#habitacion-preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    max-width: 250px;
+    height: 50px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a255f;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.1s ease;
+}
+
+button:hover {background-color: #6f83f6;}
+
+/* Para centrar el menú en el encabezado */
+nav {
+    margin: 0;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav a {
+    font-size: 16px;
+}
+}

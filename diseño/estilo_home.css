@@ -202,3 +202,100 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  /* Estilos generales */
+  body {
+    background-color: #fff;
+  }
+
+  /* Estilos para el encabezado */
+  header {
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  /* Estilos para la sección de portada */
+  #portada {
+    padding: 50px 20px;
+  }
+
+  .portada-content {
+    padding: 50px;
+  }
+
+  #titulo {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  #portada h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  #portada p {
+    font-size: 14px;
+  }
+
+  /* Estilos para la sección de habitaciones */
+  #habitaciones {
+    padding: 20px 0;
+  }
+
+  #habitaciones h2 {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  #habitaciones li {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #habitaciones h3 {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  #habitaciones p {
+    font-size: 12px;
+  }
+
+  #habitaciones button {
+    margin-top: 10px;
+    padding: 8px 16px;
+  }
+
+  .botton4 {
+    top: 30px;
+  }
+
+  .botton1 {
+    top: 10px;
+  }
+
+  /* Estilos para el pie de página */
+  footer {
+    padding: 60px 0;
+  }
+
+  footer p {
+    font-size: 16px;
+  }
+
+  /* Para centrar el menú en el encabezado */
+  nav {
+    margin: 0;
+  }
+
+  nav li {
+    margin-right: 10px;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
